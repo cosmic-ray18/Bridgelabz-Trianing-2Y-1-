@@ -1,4 +1,4 @@
-package com.Arrays;
+package Array.Logical_Problems;
 
 import java.util.ArrayList;
 
