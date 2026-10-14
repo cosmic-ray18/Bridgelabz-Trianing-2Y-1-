@@ -1,6 +1,6 @@
 package recursion.Basic_Programs;
 
-public class Fab {
+public class Fib {
     public static int fib(int n) {
         if (n == 0 || n == 1){
             return n;
@@ -12,6 +12,6 @@ public class Fab {
 
     public static void main(String[] args) {
 
-        System.out.println(fib(5));
+        System.out.println(fib(7));
     }
 }
