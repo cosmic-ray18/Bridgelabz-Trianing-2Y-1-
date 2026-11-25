@@ -7,6 +7,13 @@ public class StackOps {
         arr[top] = data;
         top++;
     }
+    public int pop(){
+        int data;
+        top--;
+        data=arr[top];
+        arr[top]=0;
+        return data;
+    }
     public void display(){
         for(int n:arr){
             System.out.print(n+",");
